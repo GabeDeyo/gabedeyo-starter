@@ -1,3 +1,4 @@
-# Workflows Course
+# Web Starter
+## Gabe Deyo
 
-This project is an example of workflow management for a lynda.com course.
+My personal web starter.
