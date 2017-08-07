@@ -4,6 +4,6 @@ $ = require('jquery');
 
 (fill = function(item) {
   return $('.header').append("" + item);
-})('My personal web starter kit');
+})('Personal web starter kit');
 
 fill;
