@@ -9,7 +9,7 @@ var gulp = require('gulp'),
     minifyHTML = require('gulp-minify-html'),
     jsonminify = require('gulp-jsonminify'),
     //imagemin = require('gulp-imagemin'),
-    pngcrush = require('imagemin-pngcrush'),
+    //pngcrush = require('imagemin-pngcrush'),
     concat = require('gulp-concat');
 
 var env,
@@ -63,7 +63,7 @@ gulp.task('compass', function() {
    gulp.src(sassSources)
     .pipe(compass({
       sass: 'components/sass',
-      css: outputDir + 'css',
+      css: '../' + outputDir + 'css',
       image: outputDir + 'images',
       style: sassStyle
     })
