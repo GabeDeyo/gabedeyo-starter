@@ -1,12 +1,12 @@
 {
-  "name": "workflows",
+  "name": "Gabe Deyo - Web Starter",
   "version": "0.0.1",
-  "description": "A project to showcase workflows",
+  "description": "My personal web starter kit",
   "repository": {
     "type": "git",
-    "url": "https://github.com/planetoftheweb/workflows.git"
+    "url": "https://github.com/GabeDeyo/gabedeyo-starter.git"
   },
-  "author": "Ray Villalobos",
+  "author": "Gabe Deyo",
   "devDependencies": {
     "gulp": "^3.6.2",
     "gulp-browserify": "^0.5.0",
