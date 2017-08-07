@@ -1,5 +1,8 @@
 // _mixins
 // ========
+
+// Put Sass mixins/functions
+
 @mixin backImage($image) {
   background: url($image) no-repeat 50% 20% ; 
   -webkit-background-size: cover;
